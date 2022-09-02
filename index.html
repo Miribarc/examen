@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suculent Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Comic+Neue&family=PT+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="cabezera">
+            <div class="hoja">
+                <img  src="images/assets/leaf.png" alt="imagen leaf">
+            </div>
+            <h1>EasyBay</h1>
+            <div class="imput-search">
+                <input type="text" name="search" placeholder="search for anything" style="text-align:center">
+            </div>
+            <a href="#">Sing In</a>
+            <div class="carro-img" id="alert" onclick="alerta(this)">
+                <img src="images/assets/cart-dark.png" alt="carro">
+            </div>
+        </nav>
+    </header>
+    <div class="main">
+        <div class="nav-1">
+        <ul>
+            <li><a href="#">Aeonium</a></li>
+            <li><a href="#">Andormischus</a></li>
+            <li><a href="#">Agave</a></li>
+            <li><a href="#">Aloe</a></li>
+            <li><a href="#">Anacampseros</a></li>
+            <li><a href="#">Aristaloe</a></li>
+            <li><a href="#">More</a></li>
+        </ul>
+        </div>
+        <div class="subtitulo">
+        <h2>Your Source for Serious Succulent Specialties</h2>
+        </div>
+    </div>
+    <div class="contenedor_p">
+        <div class="contenedor-1">
+            <div class="cont_iz">
+                <div class="hijo1">
+                    <h4> Discover Succulent varieties one pot or rack at a time</h4>
+                </div>
+                <div class="hijo2">
+                    <h3>Discover</h3>
+                    <img src="images/assets/arrow-light.png" alt="flecha">
+                </div>
+            </div>
+            <div class="cont_cen">
+                <img  id="imagen_suculenta" src="images/assets/succulents-1.jpg" alt="suculentas"  onmouseover="over('imagen_suculenta')" onmouseout="out('imagen_suculenta')">
+            </div>
+            <div class="cont_der">
+                <div class="img-aloe">
+                    <img src="images/assets/aloe-m.jpg" alt="aloe-m">
+                </div>
+                <div class="hijo2">
+                    <h3>Soothing Aloe</h3>
+                    <img src="images/assets/arrow-light.png" alt="flecha">
+                </div>
+            </div>
+        </div>
+        <div class="contenedor-2">
+            <div class="aeonium">
+                <img src="images/assets/aeonium-s.jpg" alt="foto-aeonium">
+                <p>Aeonium</p>
+            </div>
+            <div class="agave">
+                <img src="images/assets/aloe-s.jpg" alt="foto-aloe">
+                <p>Aloe</p>
+            </div>
+            <div class="cactus">
+                <img src="images/assets/cactus-s.jpg" alt="foto-cactus">
+                <p>Cactus</p>
+            </div>
+            <div class="echeverria">
+                <img src="images/assets/echeveria-s.jpg" alt="foto-echeverria">
+                <p>Echeverria</p>
+            </div>
+            <div class="sedum">
+                <img src="images/assets/sedum-s.jpg" alt="foto-sedum">
+                <p>Sedum</p>
+            </div>
+            <div class="sempervivum">
+                <img src="images/assets/sempervivum-s.jpg" alt="foto-sempervivum">
+                <p>Sempervivum</p>
+            </div>
+        </div>
+        <footer>
+            <div class="cookie">
+                <img src="images/assets/alert-dark.png" alt="cookie">
+                <div class="texto">          
+                    <p>This site makes use of third-party cookies, by clicking "I accept" you agree the terms outlined in our <a href="#">cookie policy</a>.</p>
+                </div>
+
+                <button onclick="acceptCookie()">I accept</button>
+            </div>
+        </footer>
+    </div>    
+
+    <script src="js/script.js"></script>
+</body>
+</html>
